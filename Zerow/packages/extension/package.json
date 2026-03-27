@@ -1,9 +1,9 @@
 {
-    "name": "vscode-Zerow",
+    "name": "vscode-zerow",
     "description": "The extension specific package",
     "version": "0.0.1",
     "displayName": "Zerow",
-    "type": "module",
+    "type": "commonjs",
     "engines": {
         "vscode": "^1.67.0"
     },
@@ -20,7 +20,7 @@
         "grammars": [{
             "language": "zerow",
             "scopeName": "source.zerow",
-            "path": "syntaxes/zerow.tmLanguage.json"
+            "path": "./syntaxes/zerow.tmLanguage.json"
         }]
     },
     "activationEvents": [
@@ -46,6 +46,6 @@
         "esbuild": "~0.25.5"
     },
     "vsce": {
-      "dependencies": false
+        "dependencies": false
     }
 }
