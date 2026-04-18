@@ -14,7 +14,7 @@
         "languages": [{
             "id": "zerow",
             "aliases": ["Zerow", "zerow"],
-            "extensions": [".zerow"],
+            "extensions": [".zerow", ".zw"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{

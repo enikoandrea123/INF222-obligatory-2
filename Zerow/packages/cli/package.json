@@ -19,11 +19,14 @@
         "clean": "shx rm -fr *.tsbuildinfo out",
         "build": "echo 'No build step'",
         "build:clean": "npm run clean && npm run build",
-        "test": "echo 'No CLI tests yet'"
+        "test": "node --experimental-vm-modules ../../node_modules/jest/bin/jest.js --detectOpenHandles"
     },
     "dependencies": {
         "zerow-language": "0.0.1",
         "chalk": "~5.3.0",
         "commander": "~11.1.0"
+    },
+    "devDependencies": {
+        "jest": "^30.3.0"
     }
 }

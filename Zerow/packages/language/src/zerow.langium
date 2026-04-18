@@ -58,5 +58,9 @@ NegExpression:
     'neg' expr=PrimaryExpression
 ;
 
+hidden terminal WS: /\s+/;
+hidden terminal ML_COMMENT: /\/\*[\s\S]*?\*\//;
+hidden terminal SL_COMMENT: /\/\/[^\r\n]*/;
+
 terminal ID: /[a-zA-Z_][a-zA-Z0-9_]*/;
 terminal INT: /[0-9]+/;

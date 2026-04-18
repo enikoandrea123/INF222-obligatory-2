@@ -1,0 +1,7 @@
+unit kg
+unit m
+
+returns 1[kg]
+returns 30[m] add 50[m]
+returns (3[kg] add 8[kg]) sub 5[kg]
+returns 15[m] add 6[m] mul 10[m]

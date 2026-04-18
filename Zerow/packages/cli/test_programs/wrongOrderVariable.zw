@@ -1,0 +1,6 @@
+unit kg
+
+assign 6[kg] to a
+declare a equals 2 [kg]
+
+returns a

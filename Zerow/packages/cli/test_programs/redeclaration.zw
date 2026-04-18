@@ -1,0 +1,16 @@
+unit a
+unit b
+unit c
+
+declare a equals 5[a]
+declare b equals 6[b]
+declare c equals 7[c]
+
+assign a add a to a
+assign b mul b sub b to b
+assign c div (c sub c) to c
+declare a equals 8[b]
+
+returns a
+returns b
+returns c

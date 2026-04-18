@@ -1,0 +1,7 @@
+unit kg
+
+declare a equals 4[kg]
+declare b equals 5[m]
+
+returns a
+returns b

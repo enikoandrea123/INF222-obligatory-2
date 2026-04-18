@@ -1,0 +1,6 @@
+unit m
+unit kg
+
+assign 4[kg] to a
+
+returns 3[m]

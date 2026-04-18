@@ -1,0 +1,24 @@
+// declare measurement units
+
+unit kg
+unit m
+
+// declare variables
+
+declare a equals 2 [kg]
+declare b equals 3 [kg] add 5 [kg]
+declare c equals 6 [m] sub 2 [m] mul 2 [m]
+declare d equals (a add b) mul 10 [kg]
+
+// assignments to variables
+
+assign 4 [kg] to b
+assign b add 4 to a
+assign neg 8[m] to d
+
+// return statements
+
+returns 1 [kg] add b
+returns a add b
+returns 3 [m] sub c
+returns d add c mul 10 [m]

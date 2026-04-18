@@ -1,0 +1,6 @@
+unit aa
+unit bb
+unit cc
+
+returns 2[cc] div 3[cc]
+returns 5[aa] mul 6[bb]

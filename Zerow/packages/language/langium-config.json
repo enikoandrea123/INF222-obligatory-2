@@ -5,7 +5,8 @@
             "id": "zerow",
             "grammar": "src/zerow.langium",
             "fileExtensions": [
-                "zerow"
+                "zerow",
+                "zw"
             ],
             "textMate": {
                 "out": "syntaxes/zerow.tmLanguage.json"

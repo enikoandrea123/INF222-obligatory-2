@@ -1,0 +1,16 @@
+unit NOK
+unit USD
+unit JPY
+
+declare acc1 equals 100[NOK]
+declare acc2 equals 200[USD]
+declare acc3 equals 150[JPY]
+
+assign acc1 add acc1 mul acc1 sub 90[NOK] to acc1
+assign acc2 mul acc2 div 10[USD] mul 5[USD] to acc2
+assign acc3 sub 20[JPY] sub 20[JPY] sub 20[JPY] sub 20[JPY] add 5[JPY] to acc3
+
+
+returns (acc1 add 40[NOK]) mul 5[NOK]
+returns ((acc2 add 30[USD]) sub 5[USD]) div 5[USD]
+returns (acc3 add neg 40[JPY]) mul (5[JPY] div 5[JPY] add (10[JPY] sub 2[JPY]))

@@ -1,0 +1,13 @@
+unit kg
+unit m
+
+declare a equals neg 2 [kg]
+declare b equals 3 [kg] add 5 [kg]
+
+assign a add neg 4 [kg] to b
+
+returns b sub neg 1 [kg]
+returns a add b
+returns (neg 3 [m]) sub 3 [m]
+returns a mul neg 1[kg]
+returns b div a add 10[kg]
